@@ -12,7 +12,7 @@
   Numeric : Tenure, MonthlyCharges, TotalCharges
   Categorical/ Binary : Gender, Sr. Citizen, Partner, Dependants, PhoneServices, Multiplelines, Internetservices, Online Security, Online Backup, Dvice protection, TechSupport, StreamingTV, StreamingMovies, Contract, Paperlessbilling, PaymentMethod.
   Target = Churn (Yes = 1, No = 0 ), Class Balance is about 73/5% No and 26.5% Yes, so the classes are imbalanced. 
-  Preprocessing : Numeric columns standardized (StandardScaler), Categorical Columns one-hot encoded, both are inside a scikit-learn Pipeline saved with each model. 
+ ## c.  Preprocessing : Numeric columns standardized (StandardScaler), Categorical Columns one-hot encoded, both are inside a scikit-learn Pipeline saved with each model. 
   Split: Stratified 80/20 train/test split with randowm_state = ___. Train = ___ rows, test = ___ rows (Saved as test_data.csv) 
 
-  Git hub repo link - : 
+ ## d. Git hub repo link - : 
