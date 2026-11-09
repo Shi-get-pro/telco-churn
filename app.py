@@ -18,7 +18,9 @@ from sklearn.metrics import (
     roc_auc_score,
 )
 
-MODEL_DIR = Path(__file__).parent / "model"
+APP_DIR = Path(__file__).parent
+# Models may sit in a model/ folder or next to app.py
+MODEL_DIR = APP_DIR / "model" if (APP_DIR / "model").is_dir() else APP_DIR
 TARGET = "Churn"
 # File names exactly as saved by the notebook
 MODEL_FILES = {
