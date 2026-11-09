@@ -117,42 +117,6 @@ The app (`app.py`) **only evaluates the saved models. No retraining happens in t
 
 ---
 
-## 6. How to Run Locally
-
-```bash
-# 1. Clone the repo
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
-
-# 2. (Optional) create a virtual environment
-python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
-
-# 3. Install dependencies
-pip install -r requirements.txt
-
-# 4. Launch the app
-streamlit run app.py
-```
-
-Then open the URL shown in the terminal (usually http://localhost:8501) and upload `test_data.csv` in the sidebar.
-
-> **Note:** `scikit-learn` is pinned to **1.6.1**, the version used to train and save the models. Loading the `.joblib` files with a different version can fail or give warnings.
-
-### Re-training the models (optional)
-
-Open `AI_ML_Assignment2_2026AK05393q.ipynb` in Google Colab or Jupyter, upload `Telco-Customer-Churn.csv` and run all cells. The notebook saves the five `.joblib` models and `metric.csv` (copy them next to `app.py`), writes `test_data.csv`, and generates `requirements.txt`.
-
----
-
-## 7. Deployment (Streamlit Community Cloud)
-
-1. Push this repository to GitHub.
-2. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub.
-3. Click **New app**, select this repo and branch, and set the main file to `app.py`.
-4. Click **Deploy** and paste the generated link at the top of this README.
-
----
 
 ## 8. Tech Stack
 
