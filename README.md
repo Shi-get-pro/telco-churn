@@ -2,7 +2,7 @@
 
 **Student:** Mary Shirly S  **ID:** 2026AK05393  **Subject:** Machine Learning – Assignment 2
 
-🔗 **Live app:** `<add your Streamlit Cloud link here>`
+🔗 **Live app:**  https://telco-churn-vshgm24f4uahz8aovh2xdm.streamlit.app/
 
 ---
 
